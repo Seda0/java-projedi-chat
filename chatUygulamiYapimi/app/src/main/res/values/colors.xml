@@ -7,4 +7,25 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="red">#AF0707</color>
+
+
+    <color name="KayitOlTextColor">#000000</color>
+    <color name="colorPrimary">#FF5A28B3</color>
+    <color name="colorPrimaryDark">#FF30185A</color>
+    <color name="colorAccent">#FF03A9F4</color>
+
+    <!-- MainActivity Renkler-->
+
+    <color name="BottomViewSecilenRenk">#000000</color>
+    <color name="BottomViewSecilmeyenRenk">#AAAAAA</color>
+
+
+    <!-- Custom Dialog Mesaj Gonder-->
+    <color name="MesajGonderCerceveRenk">#6641A8</color>
+
+
+    <color name="ChatBgLeftColor">#CFCFCF</color>
+    <color name="ChatBgRightColor">#474747</color>
 </resources>

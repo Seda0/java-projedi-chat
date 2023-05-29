@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".View.MainActivity">
+    tools:context=".View.MainActivity"
+    android:background="@drawable/img_3">
 
     <include
         android:id="@+id/toolbar"
@@ -14,16 +15,20 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_below="@+id/toolbar"
-        android:id="@+id/main_activity_frameLayout"
         android:layout_above="@id/main_activity_bottomView"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:id="@+id/main_activity_frameLayout"
+       />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
-        android:id="@+id/main_activity_bottomView"
         android:layout_alignParentBottom="true"
         android:layout_height="56dp"
         app:menu="@menu/bottom_nav_view"
+        android:background="#D85C86"
+
+        android:id="@+id/main_activity_bottomView"
+
       />
 
 </RelativeLayout>

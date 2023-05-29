@@ -5,6 +5,11 @@
     android:layout_height="wrap_content"
     app:contentPadding="8dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="383dp"
+        android:layout_height="800dp"
+        android:background="@drawable/img_2"/>
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content">

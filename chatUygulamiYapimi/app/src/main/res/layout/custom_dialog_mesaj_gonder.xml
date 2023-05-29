@@ -1,63 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 <RelativeLayout
     android:layout_width="320dp"
-    android:layout_centerInParent="true"
-    android:layout_height="490dp">
+    android:layout_height="490dp"
+    android:layout_centerInParent="true">
     <RelativeLayout
         android:layout_width="match_parent"
+        android:layout_height="360dp"
         android:layout_centerInParent="true"
-        android:background="@color/white"
-        android:layout_height="360dp">
+        android:background="@drawable/custom_dialog_mesaj_gonder_bg">
         <EditText
             android:layout_width="match_parent"
+            android:layout_height="180dp"
             android:layout_centerInParent="true"
-            android:background="@color/white"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
+            android:background="@drawable/custom_dialog_gonder_mesaj_gonder_bg"
             android:gravity="top|left"
-            android:id="@+id/custom_dialog_mesaj_gonder_editMesaj"
-            android:padding="10dp"
             android:inputType="textMultiLine"
-            android:layout_height="180dp"/>
+            android:padding="8dp"
+            android:id="@+id/custom_dialog_mesaj_gonder_editMesaj"
+            />
     </RelativeLayout>
     <LinearLayout
-        android:layout_alignParentBottom="true"
         android:layout_width="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
         android:orientation="horizontal">
         <ImageView
             android:layout_width="90dp"
-            android:padding="15dp"
+            android:layout_height="90dp"
+            android:background="@drawable/custom_dialog_mesaj_gonder_btn"
+            android:padding="20dp"
             android:src="@drawable/ic_close"
             android:id="@+id/custom_dialog_mesaj_gonder_imgIptal"
-            android:background="#638064"
-            android:layout_height="90dp"/>
+          />
         <LinearLayout
             android:layout_width="90dp"
-            android:background="#DAB885"
-            android:layout_marginLeft="45dp"
-            android:layout_gravity="center"
-android:id="@+id/custom_dialog_mesaj_gonder_linearGonder"
             android:layout_height="90dp"
-            android:orientation="vertical">
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/custom_dialog_mesaj_gonder_btn"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/custom_dialog_mesaj_gonder_linearGonder"
+            >
             <ImageView
                 android:layout_width="45dp"
-                android:src="@drawable/ic_message"
-                android:background="#638064"
-                android:layout_height="45dp"/>
+                android:layout_height="45dp"
+                android:background="@drawable/custom_dialog_mesaj_gonder_btn"
+                android:src="@drawable/ic_message1"/>
             <TextView
                 android:layout_width="wrap_content"
-                android:textColor="@color/purple_200"
-                android:text="gönder"
+                android:layout_height="wrap_content"
+                android:text="Gönder"
+                android:textColor="@color/white"
                 android:textSize="11sp"
-                android:textStyle="bold"
-                android:layout_height="wrap_content"/>
+                android:textStyle="bold"/>
 
         </LinearLayout>
 
@@ -66,19 +69,21 @@ android:id="@+id/custom_dialog_mesaj_gonder_linearGonder"
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="126dp"
         android:layout_centerHorizontal="true"
-        android:id="@+id/custom_dialog_mesaj_gonder_imgKullaniciProfil"
+        android:layout_height="126dp"
         app:civ_border_width="3dp"
-        app:civ_border_color="#1D35B8"
-        android:layout_height="126dp"/>
+        app:civ_border_color="@color/MesajGonderCerceveRenk"
+        android:id="@+id/custom_dialog_mesaj_gonder_imgKullaniciProfil"
+       />
     <TextView
-        android:layout_width="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="2dp"
-        android:id="@+id/custom_dialog_mesaj_gonder_txtKullaniciIsim"
+        android:layout_width="wrap_content"
         android:layout_below="@+id/custom_dialog_mesaj_gonder_imgKullaniciProfil"
-        android:layout_height="wrap_content"
         android:textStyle="bold"
-        android:textColor="@color/purple_200"
         android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:id="@+id/custom_dialog_mesaj_gonder_txtKullaniciIsim"
+
         />
 </RelativeLayout>

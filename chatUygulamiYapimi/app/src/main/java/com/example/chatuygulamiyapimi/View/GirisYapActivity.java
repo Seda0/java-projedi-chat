@@ -30,12 +30,12 @@ public class GirisYapActivity extends AppCompatActivity {
     private String txtEmail,txtSifre;
     private LinearLayout mLinear;
     private void init(){
-        mLinear=findViewById(R.id.girisYaplinear);
+        mLinear=findViewById(R.id.giris_yap_linear);
 
-        inputEmail=findViewById(R.id.girisYapEmail);
-        inputSifre=findViewById(R.id.girisYapSifre);
-        editEmail=findViewById(R.id.girisYapeditEmail);
-        editSifre=findViewById(R.id.girisYapeditSifre);
+        inputEmail=findViewById(R.id.giris_yap_inputEmail);
+        inputSifre=findViewById(R.id.giris_yap_inputSifre);
+        editEmail=findViewById(R.id.giris_yap_editEmail);
+        editSifre=findViewById(R.id.giris_yap_editSifre);
 
         mAuth=FirebaseAuth.getInstance();
         mUser=mAuth.getCurrentUser();

@@ -39,7 +39,7 @@ public class KayitOlActivity extends AppCompatActivity {
         mAuth=FirebaseAuth.getInstance();
         mFirestore=FirebaseFirestore.getInstance();
         mLinear=findViewById(R.id.kayitOllinear);
-        inputisim=findViewById(R.id.kayitOlisim);
+        inputisim=findViewById(R.id.kayitOLisim);
         inputSifre=findViewById(R.id.kayitOlSifre);
         inputEmail=findViewById(R.id.kayitOlEmail);
         inputSifre1=findViewById(R.id.kayitOlSifre1);
