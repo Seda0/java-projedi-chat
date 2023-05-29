@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/toolbar"
+    android:background="@android:color/transparent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="anonim chat"/>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_gravity="end"
+    android:layout_marginRight="15dp"
+    android:id="@+id/bar_layout_relaNotif"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_notif"
+        android:id="@+id/bar_layout_imgNotif"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/bar_layout_txtBildirimSayisi"
+        android:layout_alignParentRight="@+id/bar_layout_imgNotif"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_alignBottom="@+id/bar_layout_imgNotif"
+        android:textSize="11sp"
+        android:textColor="#B13E1A"
+        />
+</RelativeLayout>
+</androidx.appcompat.widget.Toolbar>

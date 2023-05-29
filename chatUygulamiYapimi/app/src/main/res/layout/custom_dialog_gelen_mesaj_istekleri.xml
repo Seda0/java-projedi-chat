@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.appcompat.widget.Toolbar
+    android:layout_width="match_parent"
+    android:id="@+id/custom_dialog_gelen_mesaj_istekleri_toolbar"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="anonim chat"/>
+    <ImageView
+        android:layout_width="35dp"
+        android:src="@drawable/ic_close"
+        android:id="@+id/custom_dialog_gelen_mesaj_istekleri_imgKapat"
+        android:layout_gravity="end"
+        android:layout_marginRight="10dp"
+        android:layout_height="35dp"
+        app:tint="#E19D9D"
+        />
+
+
+</androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:id="@+id/custom_dialog_gelen_mesaj_istekleri_linear"
+        android:layout_below="@+id/custom_dialog_gelen_mesaj_istekleri_toolbar"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="5dp"
+            android:background="#000000"
+            android:layout_height="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="mesaj istekleri"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/custom_dialog_gelen_mesaj_istekleri_linear"
+        android:id="@+id/custom_dialog_gelen_mesaj_istekleri_recylerView"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

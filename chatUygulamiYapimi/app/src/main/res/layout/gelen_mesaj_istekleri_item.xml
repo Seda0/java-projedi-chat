@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:contentPadding="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="77dp"
+        android:id="@+id/gelen_mesaj_istekleri_item_imgProfil"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#000000"
+        android:layout_height="77dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="12sp"
+        android:id="@+id/gelen_mesaj_istekleri_item_txtMesaj"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toLeftOf="@+id/gelen_mesaj_istekleri_item_linear"
+        android:layout_toRightOf="@+id/gelen_mesaj_istekleri_item_imgProfil"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="test kullanıcısı sana mesaj gondermek istiyor"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/gelen_mesaj_istekleri_item_linear"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="40dp"
+            android:id="@+id/gelen_mesaj_istekleri_item_imgIptal"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_close"
+            app:tint="#C32E2E"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/gelen_mesaj_istekleri_item_imgOnayla"
+
+            android:layout_height="40dp"
+            android:src="@drawable/ic_check"
+            />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

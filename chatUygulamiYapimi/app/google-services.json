@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "806460880472",
+    "project_id": "anonim-chat-app-f7365",
+    "storage_bucket": "anonim-chat-app-f7365.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806460880472:android:685d9ef911f53f5bf33c2d",
+        "android_client_info": {
+          "package_name": "com.example.chatuygulamiyapimi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdLJ_zIcGsmb3wUy_8U8DFH2K5zySV5_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
