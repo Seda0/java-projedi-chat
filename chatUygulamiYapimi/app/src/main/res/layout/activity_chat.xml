@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".View.ChatActivity"
     android:background="@drawable/img_8">
 
@@ -59,7 +59,7 @@
         android:id="@+id/chat_activity_recyclerView"
         android:layout_below="@+id/chat_activity_toolbar"
         android:scrollbars="none"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content"/>
     <RelativeLayout
         android:layout_width="match_parent"
         android:background="#FFFFFF"

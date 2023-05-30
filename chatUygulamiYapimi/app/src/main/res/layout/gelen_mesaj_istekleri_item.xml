@@ -3,13 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:contentPadding="8dp"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:padding="8dp"
 
-    <RelativeLayout
-        android:layout_width="383dp"
-        android:layout_height="800dp"
-        android:background="@drawable/img_2"/>
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
